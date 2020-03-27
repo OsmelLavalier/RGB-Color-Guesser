@@ -1,0 +1,211 @@
+/* body {
+    background-color: #232323;
+}
+
+.changeBackground {
+    position:fixed;
+    padding:0;
+    margin:0;
+
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 22%;
+
+    text-align: center;
+    line-height: 15px;
+   
+    background-color: steelblue;
+}
+
+.changeBackground h3:nth-of-type(1) {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: white;
+    font-weight: normal;
+}
+
+.changeBackground h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: white;
+    font-weight: normal;
+}
+
+.changeBackground h3:nth-of-type(2) {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: white;
+    font-weight: normal;
+}
+
+.container {
+    position: fixed;
+    top: 28%;
+    left: 20%;
+    width: 60%;
+    /* border: 1px solid red;
+}
+
+.container .square {
+    position: relative;
+    width: 30%;
+    padding-bottom: 20%;
+    height: 30px;
+    float: left;
+    margin: 1.66%;
+    border-radius: 30px;
+}
+
+
+.middlebar {
+    display: flex;
+   
+    justify-content: center;
+    background-color: white;
+
+    position:fixed;
+    padding:0;
+    margin:0;
+
+    top:22%;
+    left:0;
+
+    width: 100%;
+    height: 30px;
+}
+
+.middlebar .difficulty {
+    display: flex;
+    margin-left: 25%;
+}
+
+.middlebar #newcolors {
+    text-transform: uppercase;
+    border: none;
+    background: none;
+    color: steelblue;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.middlebar .difficulty #easy {
+    text-transform: uppercase;
+    border: none;
+    background: none;
+    color: steelblue;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.middlebar .difficulty .hard {
+    text-transform: uppercase;
+    border: none;
+    background: none;
+    color: steelblue;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 3%;
+}
+
+.middlebar .difficulty .active {
+    background-color: steelblue;
+    color: white;
+}
+
+.middlebar #newcolors:hover {
+    
+    background-color: steelblue;
+    color: white;
+}
+
+.middlebar #easy:hover {
+    
+    background-color: steelblue;
+    color: white;
+}
+
+.middlebar #hard:hover {
+    
+    background-color: steelblue;
+    color: white;
+}
+
+
+ */
+
+ body {
+     background-color: #232323;
+     margin: 0;
+     font-family: "Montserrat", "Avenir";
+ }
+
+ .square {
+    width: 30%;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    float: left;
+    background-color: purple;
+    border-radius: 20%;
+    transition: background 0.6s;
+    -webkit-transition: background 0.6s;
+    -moz-transition: background 0.6s;
+    
+ }
+
+ .container {
+     max-width: 600px;
+     margin: 20px auto;
+ }
+
+ h1 {
+     text-align: center;
+     font-weight: normal;
+     text-transform: uppercase;
+     line-height: 1.1;
+     color: white;
+     background-color: steelblue;
+     margin: 0;
+     padding: 20px 0;
+ }
+
+ .stripe {
+     background-color: white;
+     height: 30px;
+     text-align: center;
+ }
+
+ .selected {
+     color: white;
+     background-color: steelblue;
+ }
+
+ #colorDisplay {
+     font-size: 200%;
+ }
+
+ button {
+     border: none;
+     background-color: none;
+     outline: none;
+     text-transform: uppercase;
+     height: 100%;
+     font-weight: 700;
+     color: steelblue;
+     letter-spacing: 1px;
+     font-size: inherit;
+     transition: all 0.5s;
+     -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+ }
+
+button:hover {
+    color: white;
+    background-color: steelblue;
+}
+
+ #message {
+     display: inline-block;
+     width: 20%;
+ }
